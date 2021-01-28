@@ -1,0 +1,25 @@
+{
+  "development": {
+    "username": "scanus",
+    "password": "scanus1!",
+    "database": "scanus_solution_dev",
+    "host": "blockeydb.c7p2beq75olq.ap-northeast-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "dialectOptions": { "dateStrings": true, "typeCast": true },
+    "timezone" : "+09:00"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
